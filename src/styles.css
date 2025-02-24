@@ -31,9 +31,10 @@ body {
 }
 
 button {
-  margin: 0;
-  padding: 0;
-  border: none;
+  margin: 5px;
+  padding: 5px;
+  border-color: black;
+  border-radius: 6px;
   background: transparent;
   cursor: pointer;
   text-align: left;
@@ -149,6 +150,12 @@ h1 {
 
 .guess-input-wrapper label {
   font-size: 1.25rem;
+}
+
+.guess-input-wrapper.warning {
+  display: block;
+  font-size: .75rem;
+  color: Tomato;
 }
 
 .guess-input-wrapper input {
